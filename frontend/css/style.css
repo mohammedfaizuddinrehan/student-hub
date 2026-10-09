@@ -1,0 +1,139 @@
+css
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 40px;
+    background-color: #eaf6ff;
+    color: #12304a;
+}
+
+h1 {
+    text-align: center;
+    color: #0b3d91;
+    margin-bottom: 35px;
+}
+
+h2 {
+    color: #0b3d91;
+    margin-top: 30px;
+}
+
+input {
+    padding: 12px;
+    margin: 5px;
+    border: 1px solid #9ac9e8;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+button {
+    padding: 12px 20px;
+    margin: 5px;
+    background-color: #0b3d91;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: #0752c5;
+}
+
+#students {
+    margin-top: 15px;
+}
+
+#students p {
+    background-color: white;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border-left: 5px solid #38a9e8;
+}
+
+/* =========================
+   STUDENT DASHBOARD
+   ========================= */
+
+.dashboard {
+    display: flex;
+    min-height: 100vh;
+    margin: -40px;
+}
+
+/* Sidebar */
+
+.sidebar {
+    width: 220px;
+    background-color: #0b3d91;
+    padding: 30px 20px;
+}
+
+.sidebar h2 {
+    color: white;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.sidebar a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    margin-bottom: 8px;
+    border-radius: 6px;
+}
+
+.sidebar a:hover {
+    background-color: #0752c5;
+}
+
+/* Main content */
+
+.dashboard-content {
+    flex: 1;
+    padding: 40px;
+}
+
+.dashboard-content h1 {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.welcome {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* Dashboard cards */
+
+.dashboard-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.dashboard-card {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.dashboard-card h3 {
+    margin-top: 0;
+    color: #0b3d91;
+}
+
+.dashboard-card p {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
