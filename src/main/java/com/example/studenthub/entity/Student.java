@@ -2,6 +2,8 @@ package com.example.studenthub.entity;
 
 import jakarta.persistence.*;
 
+
+//this is entity, test
 @Entity
 public class Student {
 
